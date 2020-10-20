@@ -44,3 +44,10 @@ done
 
 # display array
 echo "elements of array : "${arr[@]}
+echo "========================================="
+
+# sorting in descending order
+Descendingsorted=($(printf '%s\n' "${arr[@]}" | sort -nr ))
+
+# displaying array in descending order
+echo "sorted array in descending order : "${Descendingsorted[@]}
