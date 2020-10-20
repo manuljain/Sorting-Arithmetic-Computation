@@ -22,3 +22,14 @@ echo "$a + $b * $c = $n1"
 echo "$a * $b + $c = $n2"
 echo "$c + $a / $b = $n3"
 echo "$a % $b + $c = $n4"
+
+# storing results in dictionary
+dict[1]="$n1"
+dict[2]="$n2"
+dict[3]="$n3"
+dict[4]="$n4"
+
+
+#display dictionay
+echo "keys of dictionary : "${!dict[@]}
+echo "values of dictionary : "${dict[@]}
