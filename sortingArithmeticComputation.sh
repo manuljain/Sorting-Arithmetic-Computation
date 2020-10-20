@@ -15,8 +15,10 @@ echo "Numbers are : $a, $b, $c"
 n1=$(($a+$b*$c))
 n2=$(($a*$b+$c))
 n3=$( echo "$c $a $b" | awk '{printf $1+$2/$3}' )
+n4=$(($a%$b+$c))
 
 #computed value
 echo "$a + $b * $c = $n1"
 echo "$a * $b + $c = $n2"
 echo "$c + $a / $b = $n3"
+echo "$a % $b + $c = $n4"
