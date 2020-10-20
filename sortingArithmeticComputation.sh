@@ -13,6 +13,8 @@ echo "Numbers are : $a, $b, $c"
 
 #computing
 n1=$(($a+$b*$c))
+n2=$(($a*$b+$c))
 
 #computed value
 echo "$a + $b * $c = $n1"
+echo "$a * $b + $c = $n2"
