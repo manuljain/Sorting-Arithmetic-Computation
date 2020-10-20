@@ -51,3 +51,11 @@ Descendingsorted=($(printf '%s\n' "${arr[@]}" | sort -nr ))
 
 # displaying array in descending order
 echo "sorted array in descending order : "${Descendingsorted[@]}
+echo "========================================="
+
+# sorting in ascending order
+Ascendingsorting=($(printf '%s\n' "${arr[@]}" | sort -n ))
+
+# displaying array in ascending order
+echo "sorted array in ascending order : "${Ascendingsorting[@]}
+
